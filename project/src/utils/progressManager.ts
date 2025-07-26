@@ -176,8 +176,11 @@ export const calculateLevel = (xp: number): number => {
   return Math.floor(xp / 100) + 1;
 };
 
-export const getXPForNextLevel = (level: number): number => {
-  return level * 100;
+// XP required to advance to the next level. Each level currently
+// uses a flat 100 XP threshold so we return a constant rather than
+// scaling with the current level.
+export const getXPForNextLevel = (_level: number): number => {
+  return 100;
 };
 
 export const updateCourseProgress = (
