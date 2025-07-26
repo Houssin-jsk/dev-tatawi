@@ -1,0 +1,232 @@
+{
+  "metadata": {
+    "title": "Dev & Tatawi Educational Content",
+    "description": "Comprehensive web development curriculum covering HTML, CSS, JavaScript, Git, React, Command Line, and Algorithms",
+    "totalCourses": 7,
+    "totalLessons": 93,
+    "estimatedTotalHours": 87,
+    "lastUpdated": "2024-01-15",
+    "source": "Based on W3Schools curriculum and modern web development practices"
+  },
+  "courses": [
+    {
+      "id": "html",
+      "title": "HTML Fundamentals",
+      "description": "Learn the building blocks of web development - tags, elements, and structure",
+      "icon": "🏗️",
+      "color": "text-orange-500",
+      "bgColor": "bg-orange-500/20",
+      "totalLessons": 12,
+      "estimatedHours": 8,
+      "prerequisites": [],
+      "difficulty": "beginner",
+      "topics": [
+        "HTML Document Structure",
+        "Text Elements and Formatting",
+        "Links and Navigation",
+        "Images and Media",
+        "Forms and Input Elements",
+        "Tables and Data Display",
+        "Semantic HTML5 Elements",
+        "Accessibility Best Practices",
+        "HTML Validation",
+        "Meta Tags and SEO",
+        "HTML APIs",
+        "Best Practices and Standards"
+      ]
+    },
+    {
+      "id": "css",
+      "title": "CSS Styling",
+      "description": "Master layout, colors, animations and responsive design techniques",
+      "icon": "🎨",
+      "color": "text-blue-500",
+      "bgColor": "bg-blue-500/20",
+      "totalLessons": 15,
+      "estimatedHours": 12,
+      "prerequisites": ["html"],
+      "difficulty": "beginner-to-intermediate",
+      "topics": [
+        "CSS Syntax and Selectors",
+        "Box Model and Layout",
+        "Typography and Text Styling",
+        "Colors and Backgrounds",
+        "Flexbox Layout",
+        "CSS Grid Layout",
+        "Responsive Design",
+        "CSS Animations and Transitions",
+        "CSS Variables",
+        "Pseudo-classes and Pseudo-elements",
+        "CSS Preprocessors",
+        "Modern CSS Features",
+        "CSS Architecture",
+        "Performance Optimization",
+        "CSS Frameworks"
+      ]
+    },
+    {
+      "id": "javascript",
+      "title": "JavaScript Programming",
+      "description": "Variables, functions, DOM manipulation and interactive web experiences",
+      "icon": "⚡",
+      "color": "text-yellow-500",
+      "bgColor": "bg-yellow-500/20",
+      "totalLessons": 18,
+      "estimatedHours": 15,
+      "prerequisites": ["html"],
+      "difficulty": "beginner-to-advanced",
+      "topics": [
+        "JavaScript Fundamentals",
+        "Variables and Data Types",
+        "Functions and Scope",
+        "Objects and Arrays",
+        "DOM Manipulation",
+        "Event Handling",
+        "Asynchronous JavaScript",
+        "Promises and Async/Await",
+        "ES6+ Features",
+        "Error Handling",
+        "Local Storage and APIs",
+        "JavaScript Modules",
+        "Testing JavaScript",
+        "Performance Optimization",
+        "JavaScript Frameworks Introduction",
+        "Node.js Basics",
+        "JavaScript Best Practices",
+        "Debugging Techniques"
+      ]
+    },
+    {
+      "id": "git",
+      "title": "Git Version Control",
+      "description": "Version control, commits, branches and collaboration workflows",
+      "icon": "🔀",
+      "color": "text-gray-500",
+      "bgColor": "bg-gray-500/20",
+      "totalLessons": 10,
+      "estimatedHours": 8,
+      "prerequisites": ["cmd"],
+      "difficulty": "beginner-to-intermediate",
+      "topics": [
+        "Git Fundamentals",
+        "Repository Management",
+        "Staging and Committing",
+        "Branching and Merging",
+        "Remote Repositories",
+        "GitHub Workflow",
+        "Conflict Resolution",
+        "Git History and Logs",
+        "Advanced Git Commands",
+        "Collaboration Best Practices"
+      ]
+    },
+    {
+      "id": "react",
+      "title": "React Development",
+      "description": "Components, hooks, props, state management and modern web apps",
+      "icon": "⚛️",
+      "color": "text-cyan-500",
+      "bgColor": "bg-cyan-500/20",
+      "totalLessons": 16,
+      "estimatedHours": 20,
+      "prerequisites": ["javascript"],
+      "difficulty": "intermediate-to-advanced",
+      "topics": [
+        "React Fundamentals",
+        "JSX and Components",
+        "Props and State",
+        "Event Handling",
+        "React Hooks",
+        "Component Lifecycle",
+        "Conditional Rendering",
+        "Lists and Keys",
+        "Forms in React",
+        "Context API",
+        "React Router",
+        "State Management",
+        "Testing React Apps",
+        "Performance Optimization",
+        "React Best Practices",
+        "Deployment Strategies"
+      ]
+    },
+    {
+      "id": "cmd",
+      "title": "Command Line Interface",
+      "description": "Terminal basics, CLI tools and developer productivity workflows",
+      "icon": "💻",
+      "color": "text-green-500",
+      "bgColor": "bg-green-500/20",
+      "totalLessons": 8,
+      "estimatedHours": 6,
+      "prerequisites": [],
+      "difficulty": "beginner",
+      "topics": [
+        "Command Line Basics",
+        "File System Navigation",
+        "File and Directory Operations",
+        "Text Processing Commands",
+        "Process Management",
+        "Environment Variables",
+        "Shell Scripting Basics",
+        "Developer Tools and Workflows"
+      ]
+    },
+    {
+      "id": "algorithms",
+      "title": "Algorithms & Data Structures",
+      "description": "Problem-solving, data structures and computational thinking",
+      "icon": "🧠",
+      "color": "text-purple-500",
+      "bgColor": "bg-purple-500/20",
+      "totalLessons": 14,
+      "estimatedHours": 18,
+      "prerequisites": ["javascript"],
+      "difficulty": "intermediate-to-advanced",
+      "topics": [
+        "Algorithm Fundamentals",
+        "Big O Notation",
+        "Arrays and Strings",
+        "Linked Lists",
+        "Stacks and Queues",
+        "Trees and Binary Search Trees",
+        "Hash Tables",
+        "Sorting Algorithms",
+        "Searching Algorithms",
+        "Graph Algorithms",
+        "Dynamic Programming",
+        "Recursion",
+        "Greedy Algorithms",
+        "Problem-Solving Strategies"
+      ]
+    }
+  ],
+  "learningPath": {
+    "beginner": ["cmd", "html", "css"],
+    "intermediate": ["javascript", "git"],
+    "advanced": ["react", "algorithms"]
+  },
+  "skillsMatrix": {
+    "frontend": ["html", "css", "javascript", "react"],
+    "backend": ["javascript", "algorithms"],
+    "devops": ["git", "cmd"],
+    "fullstack": ["html", "css", "javascript", "react", "git", "cmd", "algorithms"]
+  },
+  "certificationRequirements": {
+    "webDeveloper": {
+      "requiredCourses": ["html", "css", "javascript"],
+      "minimumScore": 80,
+      "practicalProjects": 3
+    },
+    "frontendDeveloper": {
+      "requiredCourses": ["html", "css", "javascript", "react"],
+      "minimumScore": 85,
+      "practicalProjects": 5
+    },
+    "fullstackDeveloper": {
+      "requiredCourses": ["html", "css", "javascript", "react", "git", "algorithms"],
+      "minimumScore": 90,
+      "practicalProjects": 8
+    }
+  }
+}
